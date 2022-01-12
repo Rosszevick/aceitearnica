@@ -1,0 +1,163 @@
+.encabezado{
+	display:flex;
+	justify-content:center;
+	width: 816px;
+	height: 81px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	background-color: rgba(221, 224, 52, 0.26);
+	color:rgb(12, 11, 11);
+	font-family: 'Times New Roman', Times, serif;
+	text-decoration: underline rgb(12, 12, 12)
+}
+
+@media screen and (max-width: 816px) {
+	.encabezado{
+		display:flex;
+		justify-content:center;
+		width: auto;
+		height: auto;
+		margin: 0 auto;
+		background-color: rgba(221, 224, 52, 0.26);
+		color:rgb(12, 11, 11);
+		font-family: 'Times New Roman', Times, serif;
+		text-decoration: underline rgb(12, 12, 12)
+	}
+}
+
+
+.imagenes{
+	display:flex;
+	justify-content:center;
+	width: 816px;
+	margin: 0 auto;
+
+}
+
+@media screen and (max-width: 816px) {
+	.imagenes{
+		display: none;
+		flex-direction:column;
+		justify-content:center;
+		width: auto;
+		margin: 0 auto;	}
+}
+
+.imagenes-movil{
+	display:none;
+	justify-content:center;
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+
+}
+
+@media screen and (max-width: 816px) {
+	.imagenes-movil{
+		display: flex;
+		flex-direction:column;
+		justify-content:center;
+		width: auto;
+		margin: 0 auto;	}
+}
+
+.caracteristicas{
+	width: 816px;
+	margin: 0 auto;
+	height: auto;
+	display:flex;
+	background-color: rgba(221, 224, 52, 0.26);
+	color: rgb(17, 17, 16);		
+	flex-direction: column;	
+}
+
+@media screen and (max-width: 816px) {
+	.caracteristicas{
+		width: 100%;
+		margin: 0 auto;
+		height: auto;
+		display:flex;
+		background-color: rgba(221, 224, 52, 0.26);
+		color: rgb(17, 17, 16);		
+		flex-direction: column;	
+	}
+
+}
+
+
+h2{
+	align-self: center;
+	font-family:serif;
+	text-decoration: underline rgb(19, 18, 18)
+}
+
+h3{
+	margin: 0 auto;
+	height: auto;
+	display:flex;
+	justify-content: center;
+	font-family: 'Times New Roman', Times, serif;
+	text-decoration: underline rgb(12, 12, 12);	
+}
+
+.p{
+	display:flex;
+	color: rgb(15, 15, 15);
+	padding: 5%;
+	background-size: 10px;
+	font-style: italic;
+	
+}
+
+.acetmano{
+	
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+@media screen and (max-width: 816px) {
+	.acetmano{
+		display: none;
+		width: 500px;
+		margin: 0 auto;
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}
+}
+
+.description{
+	display: flex;
+	font-style:italic;
+	height: 10%;
+	padding: 5%;
+	
+}
+
+footer{
+	width: 816px;
+	margin: 0 auto;
+	display:flex;
+	background-color: chocolate;
+	color: rgb(17, 17, 16);		
+	flex-direction: column;
+	padding: 50px;
+	justify-content: space-evenly;
+}
+
+.flores{
+	display: flex;
+	justify-content: space-evenly;
+} 
+
+@media screen and (max-width: 816px) {
+	footer{
+		width: auto;
+		margin: 0 auto;
+		display:flex;
+		background-color: chocolate;
+		color: rgb(17, 17, 16);		
+		flex-direction: column;
+	}
+}
